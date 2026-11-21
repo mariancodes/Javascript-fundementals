@@ -1,0 +1,27 @@
+let hotelRoom = {
+  location: "Aberdeen",
+  pricePerNight: 150,
+  guestName: "Marian",
+  nights: 3,
+
+  amenities: ["Wi-Fi", "AC", "Ocean View", "Breakfast"],
+
+  bathroom: {
+    count: 2,
+    hasJacuzzi: true,
+  },
+};
+
+console.log(hotelRoom.amenities);
+
+console.log(hotelRoom.bathroom.hasJacuzzi);
+
+let totalBill = hotelRoom.pricePerNight * hotelRoom.nights;
+
+console.log(`
+Booking Summary Card
+Guest Name: ${hotelRoom.guestName}
+Location: ${hotelRoom.location}
+Number of Nights: ${hotelRoom.nights}
+Total Bill: ${totalBill}
+`);
