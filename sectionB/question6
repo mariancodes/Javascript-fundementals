@@ -1,0 +1,24 @@
+let courseName = "Web Development";
+let lecturerName = "Amadu Kamara";
+let creditHours = 3;
+let semester = "Semester 1";
+
+console.log(
+  "The course is " +
+    courseName +
+    " taught by " +
+    lecturerName +
+    ". It carries " +
+    creditHours +
+    " credit hours in " +
+    semester +
+    ".",
+);
+
+let score1 = 68;
+let score2 = 74;
+let score3 = 89;
+
+let average = (score1 + score2 + score3) / 3;
+
+console.log(`The average test score is ${average}`);
