@@ -1,0 +1,27 @@
+let lecturersDb = [];
+
+lecturersDb.push(
+  {
+    id: 1,
+    fullName: "Amadu Kamara",
+    department: "DICT",
+    phoneNumber: "076123456",
+  },
+  {
+    id: 2,
+    fullName: "Samuel Amkam",
+    department: "DICT",
+    phoneNumber: "077234567",
+  },
+  {
+    id: 3,
+    fullName: "Foday Conteh",
+    department: "DICT",
+    phoneNumber: "078345678",
+  },
+);
+
+console.log(lecturersDb);
+
+console.log(`Second Lecturer: ${lecturersDb[1].fullName}
+Phone Number: ${lecturersDb[1].phoneNumber}`);
