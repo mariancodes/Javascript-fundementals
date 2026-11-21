@@ -1,0 +1,10 @@
+let scoreA = 75;
+let scoreB = 82;
+
+if (scoreA > scoreB) {
+  console.log(`ScoreA (${scoreA}) is greater than ScoreB (${scoreB})`);
+} else if (scoreA < scoreB) {
+  console.log(`ScoreA (${scoreA}) is less than ScoreB (${scoreB})`);
+} else {
+  console.log(`ScoreA (${scoreA}) is equal to ScoreB (${scoreB})`);
+}
